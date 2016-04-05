@@ -81,6 +81,7 @@
     <Compile Include="Query\Metadata\GetTeamColorsTests.cs" />
     <Compile Include="Query\Metadata\GetVehiclesTests.cs" />
     <Compile Include="Query\Metadata\GetWeaponsTests.cs" />
+    <Compile Include="Query\Stats\CarnageReport\GetMatchEventsTests.cs" />
     <Compile Include="Query\Stats\CarnageReport\GetArenaMatchDetailsTests.cs" />
     <Compile Include="Query\Stats\CarnageReport\GetCampaignMatchDetailsTests.cs" />
     <Compile Include="Query\Stats\CarnageReport\GetCustomMatchDetailsTests.cs" />
@@ -227,6 +228,12 @@
     <None Include="JSON\Metadata\Common\reward.schema.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="JSON\Stats\CarnageReport\match-events.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="JSON\Stats\CarnageReport\match-events.schema.json.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="JSON\Stats\CarnageReport\campaign-match.schema.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -270,6 +277,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="JSON\Stats\CarnageReport\arena-match.schema.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="JSON\Stats\Common\variant.schema.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="JSON\Stats\Common\base-stat.schema.json">
